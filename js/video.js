@@ -72,14 +72,11 @@ document.querySelector("#mute").addEventListener("click", function() {
 
 document.querySelector("#orig").addEventListener("click", function() {
     console.log("I am in original");
-    fig = document.querySelector("figure")
-	console.log("Removing oldSchool")
-    fig.classList.remove("oldSchool")
+    video.classList.remove("oldSchool")
 });
 
 document.querySelector("#vintage").addEventListener("click", function() {
     console.log("I am in vintage");
-    fig = document.querySelector("figure")
-	fig.classList.add("oldSchool")
+	video.classList.add("oldSchool")
 
 });
